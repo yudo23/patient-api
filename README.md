@@ -16,11 +16,17 @@ This project uses the **Service Pattern** to separate business logic from contro
 Example structure:
 
 app/
+
 ├── Http/
+
 │ └── Controllers/
+
 ├── Services/
+
 │ └── PatientService.php
+
 ├── Models/
+
 │ └── Patient.php
 
 ## Installation
@@ -50,12 +56,18 @@ php artisan serve
 ## Access Key
 
 The access key is taken from the access_keys table. This token is generated when running the seeder.
+
 Access-Key = A9D8F7C6B5E4D3C2A1B0D9F8C7E6B5A4 
 
 ## URL API
 
 [GET] https://api.hipamklampok.my.id/api/v1/patients
+
 [GET] https://api.hipamklampok.my.id/api/v1/patients/{id}
+
 [PUT] https://api.hipamklampok.my.id/api/v1/patients/{id}
+
 [POST] https://api.hipamklampok.my.id/api/v1/patients
+
 [DELETE] https://api.hipamklampok.my.id/api/v1/patients/{id}
+
